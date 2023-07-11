@@ -2,15 +2,15 @@
 
 Test Cases
 
-Feature: Carousels / sliders / horizontal scrollers Elements check
+**Feature**: Carousels / sliders / horizontal scrollers Elements check
 
-Scenario: Verify the home page loaded successfully
+**Scenario**: Verify the home page loaded successfully
 
   Given Enter the url
   
   Then Verify home page loaded successfully.
 
-Scenario: Verify Carousels / sliders / horizontal scrollers displayed
+**Scenario**: Verify Carousels / sliders / horizontal scrollers displayed
 
   Given Enter the url https://www.mall.cz/
   
@@ -18,7 +18,7 @@ Scenario: Verify Carousels / sliders / horizontal scrollers displayed
   
   Then Carousels / sliders / horizontal displayed
 
-Scenario: Get the carousel count and verify the count is greater than 15 elements
+**Scenario**: Get the carousel count and verify the count is greater than 15 elements
 
   Given Go to the carousel
   
@@ -28,7 +28,7 @@ Scenario: Get the carousel count and verify the count is greater than 15 element
   
   Then Display pass/fail
 
-Scenario: Compare the elements and check whether the elements are unique
+**Scenario**: Compare the elements and check whether the elements are unique
 
   Given Go to carouse
   
